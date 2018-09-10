@@ -1,5 +1,11 @@
+body{
+    color:aquamarine;
+    background-color: darkblue;
+}
+
 h1 {
     color: red;
+    text-align: center;
 }
 h1:hover{
     
