@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+h1:hover{
+    
+    color :blue;
+    background-color: black;
+    border-color : red;
+    border-width: 10px;
+    border-radius: 10px;
+    border-bottom-style:solid;
+}
