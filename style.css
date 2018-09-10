@@ -2,12 +2,16 @@ body{
     color:aquamarine;
     background-color: darkblue;
 }
-
-span {
-    color: red;
+p{
+    color:cyan;
     text-align: center;
 }
-div:hover{
+span {
+    color:red;
+    text-align: center;
+    
+}
+p:hover{
     
     color :blue;
     background-color: black;
