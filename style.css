@@ -3,11 +3,11 @@ body{
     background-color: darkblue;
 }
 
-h1 {
+span {
     color: red;
     text-align: center;
 }
-h1:hover{
+div:hover{
     
     color :blue;
     background-color: black;
