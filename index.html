@@ -1,30 +1,115 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<html>
-
-    <head> 
-        
-        <link href ="style.css" type =  "text/css" rel="stylesheet">
-        
-        <meta charset="utf-8" />
-        <meta lang="en-US" />
-        <title>Not My First Page</title>
-        
-    
-    </head>
-    
-    <body>
-        
-        <div>
-            
-            <p>
-                <span>My World</span>
-                My Rulles!
-            </p>
-            
-            
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>MaxK Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="XamKh.github.io">MaxK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="XamKh.github.io"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          </ul>
+          <span class="navbar-text"> Navbar text with an inline element </span>
         </div>
-    </body>
+      </nav>
+    </header>
+    <section>
+      <div class="animation-container">
+        <span class="first">Welcome To</span>
+        <span class="second">My Portfolio</span>
+      </div>
+    </section>
 
+    <section></section>
+    <!--
+      <div class="animation-container">
+        <h1 class="here" style="background:white; color:black;">My Portfolio</h1>
+      </div>
+      <section class="welcome-section content-hidden" style="background-color:black;">
+        <div>
+          <div class="content-wrap">
+            <ul class="fly-in-text">
+              <li>I</li>
+              <li>N</li>
+              <li>T</li>
+              <li>R</li>
+              <li>O</li>
+            </ul>
+            <a href="#" class="enter-button" type="button">Enter</a>
+          </div>
+        </div>
+      </section>
+    -->
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--
+      <script type="text/javascript">
+        $(function() {
+          var welcomeSection = $(".welcome-section"),
+            enterButton = welcomeSection.find(".enter-button");
+
+          setTimeout(function() {
+            welcomeSection.removeClass("content-hidden");
+          });
+
+          enterButton.on("click", function(e) {
+            e.preventDefault();
+            welcomeSection.addClass("content-hidden").fadeOut();
+            welcomeSection.addClass("smoke-screen");
+          });
+        });
+      </script>
+    -->
+  </body>
 </html>
