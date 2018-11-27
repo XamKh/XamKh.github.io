@@ -6,11 +6,80 @@ body {
   font-family: sans-serif;
 }
 body {
-  background-color: #000;
   font-family: Quicksend;
   font-weight: 700;
 }
+nav a {
+  color: white;
+}
+nav a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  color: grey;
+}
+nav a:active {
+  border-bottom: 4px solid #61ff58;
+}
+.navbar {
+  background: black;
+}
+.About {
+  background-image: url("sketch.png");
+  max-width: 100%;
+  height: 1080px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.about-me {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-container {
+  background-image: url("pc.png");
+  max-width: 100%;
+  height: 1080px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.mini-profile {
+  padding: 4em;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.holder {
+  display: inline-block;
+  cursor: pointer;
+}
 
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
 .animation-container {
   text-align: center;
   position: absolute;
@@ -23,29 +92,34 @@ body {
   display: block;
 }
 .first {
-  color: white;
+  color: black;
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 8px;
   margin-bottom: 20px;
-  background: black;
+  background: whitesmoke;
   position: relative;
   animation: text 4s 1;
 }
 .second {
-  color: #61FF58;
+  color: #61ff58;
   font-size: 30px;
+
+
 }
 @keyframes text {
   0% {
-    color: black;
+    color: grey;
     margin-bottom: -40px;
+  
   }
   30% {
+    color: grey;
     letter-spacing: 25px;
     margin-bottom: -40px;
   }
   85% {
+    color: black;
     letter-spacing: 8px;
     margin-bottom: -40px;
   }

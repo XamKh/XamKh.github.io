@@ -1,0 +1,1 @@
+Thanks to Gregory Schier from codepen.io for providing typing carousel.
