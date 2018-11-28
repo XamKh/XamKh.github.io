@@ -20,6 +20,26 @@ nav a:hover {
 nav a:active {
   border-bottom: 4px solid #61ff58;
 }
+footer{
+  text-align: center;
+  background-color:grey;
+}
+.font-social{
+  list-style:none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: .5s;
+}
+.font-social:hover{
+  color:#292929;
+  border:1px solid #292929;
+  transition: .5s;
+}
 .navbar {
   background: black;
 }
@@ -38,6 +58,9 @@ nav a:active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.blue{
+  color:#0044cc;
 }
 .img-container {
   background-image: url("pc.png");

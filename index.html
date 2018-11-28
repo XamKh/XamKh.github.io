@@ -15,6 +15,12 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>MaxK Portfolio</title>
   </head>
@@ -45,10 +51,21 @@
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Contact</a>
+              <a class="nav-link" href="#about-section">About</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://drive.google.com/file/d/1z4ID9QwPvnJ7MrT1pUzT1SMyPGPsmF7k/view?usp=sharing"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -64,38 +81,72 @@
 
     <main>
       <section>
-          <span id="about-section" class="anchor"></span>
+        <span id="about-section" class="anchor"></span>
         <div class="mini-profile container container-fluid text-center">
           <img src="max.png" alt="Max's profile picture" class="img-fluid" />
           <h3>About Me</h3>
           <h5>
-            Hello there! My name is Maksim Khatamov but you can call me Max!
-            I am North-West suburbs-based, full stack .NET developer with passion for creating new and unique software/programs. 
-            I have experience in C++ .NET Framework, C#, ASP .NET Core, MVC, T-SQL, SQL, Entity Framework,
-            ASP .NET Core Identity, API's Creating and Using, Javascript, jQuery, ReactJS, Bootstrap UI, HTML5 and CSS3.
+            Hello there! My name is Maksim Khatamov but you can call me Max! I
+            am North-West suburbs-based, full stack .NET developer with passion
+            for creating new and unique software/programs. I have experience in
+            C++ .NET Framework, C#, ASP .NET Core, MVC, T-SQL, SQL, Entity
+            Framework, ASP .NET Core Identity, API's Creating and Using,
+            Javascript, jQuery, ReactJS, Bootstrap UI, HTML5 and CSS3.
           </h5>
         </div>
       </section>
-      <section style="position:relative;">
+      <section style="position:relative;" class="anchor" id="projects">
         <div class="text-center About">
           <div class="about-me">
-            <h1>
-              Today is
+            <h1 style="text-align:left;">
+              <span class="blue">using</span>System; <br />
+              <br />
+              <span class="blue">namespace</span> HelloWorldApp <br />
+              { <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">class</span>
+              <span style="color:rebeccapurple">Program</span><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;{<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue"
+                >static void</span
+              >
+              Main(<span class="blue">string</span>[] args)<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                class="blue"
+                >Console</span
+              >.WriteLine("
               <span
+                style="color:#cc0066;"
                 class="txt-rotate"
                 data-period="2000"
-                data-rotate="[ &quot;C++...&quot;, &quot;C#...&quot;, &quot;Pure JS...&quot;, &quot;SQL...&quot;, &quot;All!&quot; ]"
-              ></span>
+                data-rotate="[ &quot;C++&quot;, &quot;C#&quot;, &quot;Pure JS&quot;, &quot;SQL&quot;, &quot;All!&quot; ]"
+              ></span
+              >"); <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                class="blue"
+                >Console</span
+              >.ReadLine(); <br />
+
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+
+              &nbsp;&nbsp;&nbsp;&nbsp;}<br />
+
+              &nbsp;}<br />
             </h1>
           </div>
         </div>
       </section>
     </main>
 
-    <footer>
-        <div class="text-center">
-            
+    <footer id="contact-me" class="anchor">
+      <div class="text-center media"> 
+        <div class="social-list text-center">
+          <ul>
+            <li class="font-social"><a href="https://github.com/XamKh"><i class="fa fa-github"></i></a></li>
+            <li class="font-social"><a href="https://www.linkedin.com/in/maksim-khatamov-56798913a/"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
         </div>
+      </div>
     </footer>
     <!--
       <div class="animation-container">
