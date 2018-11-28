@@ -1,1 +1,3 @@
 Thanks to Gregory Schier from codepen.io for providing typing carousel.
+Thanks to  Kreig Durham from codepen.io for providing cards carousel.
+Thanks to DarkCode Youtube channel for providing a tutorial for amazing social media buttons.
